@@ -1,0 +1,61 @@
+package io.cal;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertSame;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+public class CreateAnAccountPageTest {
+   @Test
+   
+   void YourName() {
+	   AmazonCreateAnAccount a =new AmazonCreateAnAccount();
+	   String expectedFirstnm ="Harrty";
+	   String expectedLastnm="potter";
+	   
+	   String actualResult =a.yourname(expectedFirstnm,expectedLastnm);
+	   assertSame(a.yourname(expectedFirstnm,expectedLastnm),actualResult,"pass");
+	   assertEquals(a.yourname(expectedFirstnm,expectedLastnm),actualResult);   
+	   
+	   
+   }
+	@Test
+  void mobNoAndEmailID() {
+	  AmazonCreateAnAccount a =new AmazonCreateAnAccount();
+	  String expectedEmail="dhar@gmail";
+	  long expectedMobNo=345678;
+	  String actualResult=a.MobNoAndEmailID( expectedEmail,expectedMobNo);
+	  assertEquals(a.MobNoAndEmailID(expectedEmail,expectedMobNo),actualResult); 	  
+	  
+	}
+    @Test
+     void yestpassword() {
+    	String ValidPass="123345";
+    	boolean IsValid=isvalidpassword(ValidPass);
+    	assertTrue(IsValid,"password should be exataly 6 character");
+    }
+	
+    private boolean isvalidpassword(String password) {
+    	return password.length()==6;
+    	
+    }
+	void testInvalidPassword() {
+		String shortpassword="12345";
+		String longPassword="1234567";
+		String isValid="123456";
+		String isInvalid=(shortpassword+longPassword);
+		
+		String expected="123456";
+		String actual="123456";
+		
+		boolean isShortValid=isvalidpassword(shortpassword);
+		boolean isLongValid=isvalidpassword(longPassword);
+		
+		
+		
+		
+		assertFalse(isShortValid,"password should be exactly 6 characters long");
+		assertTrue(isLongValid,"password should be exactly 6 characters long");
+	}
+   
+}

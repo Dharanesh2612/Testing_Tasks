@@ -1,0 +1,20 @@
+package io.cal;
+
+public class CreateAnAccountPageTest {
+   @Test
+   
+   void yourName() {
+	   AmazonCreateAnAccountPage a =new AmazonCreateAnAccountPage();
+	   String expectedFirstnm ="Harrty";
+	   String expectedLastnm="potter";
+	   
+	   String actualResult =a.YourName(expectedFirstnm,expectedLastnm);
+	   assertSame(a.YourName(expectedFirstnm,expectedLastnm),actualResult,"pass");
+	   assertEquals(a.YourName(expectedFirstnm,expectedLastnm),actualResult);
+	   
+	   
+	   
+   }
+	
+	
+}

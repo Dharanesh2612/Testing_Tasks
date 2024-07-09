@@ -1,0 +1,12 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1719980853100,1093,homepage,200,OK,Thread Group 1-1,text,true,,31942,129,1,1,http://shivajicollege.org/index.php,1006,0,456
+1719980854208,801,contactpage,200,OK,Thread Group 1-1,text,true,,16753,140,1,1,http://shivajicollege.org/pages/contact_us.php,688,0,0
+1719980855009,209,aboutuspage,200,OK,Thread Group 1-1,text,true,,18006,143,1,1,http://shivajicollege.org/pages/about_college.php,117,0,0
+1719980855218,1136,academicpages,200,OK,Thread Group 1-1,text,true,,218500,135,1,1,http://shivajicollege.org/pdf/Courses.pdf,100,0,0
+1719980856355,998,admissionpage,200,OK,Thread Group 1-1,text,true,,388997,143,1,1,http://shivajicollege.org/pdf/scholarship_new.pdf,100,0,0
+1719980857354,206,facilitypages,200,OK,Thread Group 1-1,text,true,,22518,136,1,1,http://shivajicollege.org/pages/hostel.php,146,0,0
+1719980857561,205,aluminipage,200,OK,Thread Group 1-1,text,true,,18454,142,1,1,http://shivajicollege.org/pages/about_alumni.php,147,0,0
+1719980857766,146,facilitiespage,200,OK,Thread Group 1-1,text,true,,17524,147,1,1,http://shivajicollege.org/pages/cooperative_store.php,100,0,0
+1719980857912,202,gallerypage,200,OK,Thread Group 1-1,text,true,,33916,144,1,1,http://shivajicollege.org/pages/youth_festival.php,107,0,0
+1719980858115,185,librarypager,200,OK,Thread Group 1-1,text,true,,17985,143,1,1,http://shivajicollege.org/pages/add_on_course.php,128,0,0
+1719980858300,80,departmentpage,200,OK,Thread Group 1-1,text,true,,17985,143,1,1,http://shivajicollege.org/pages/add_on_course.php,80,0,0

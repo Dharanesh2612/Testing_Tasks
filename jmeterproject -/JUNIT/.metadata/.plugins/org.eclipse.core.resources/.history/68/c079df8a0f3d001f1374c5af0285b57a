@@ -1,0 +1,32 @@
+package io.cal;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertSame;
+
+public class CreateAnAccountPageTest {
+   @Test
+   
+   void YourName() {
+	   AmazonCreateAnAccount a =new AmazonCreateAnAccount();
+	   String expectedFirstnm ="Harrty";
+	   String expectedLastnm="potter";
+	   
+	   String actualResult =a.yourname(expectedFirstnm,expectedLastnm);
+	   assertSame(a.yourname(expectedFirstnm,expectedLastnm),actualResult,"pass");
+	   assertEquals(a.yourname(expectedFirstnm,expectedLastnm),actualResult);   
+	   
+	   
+   }
+	@Test
+  void mobNoAndEmailID() {
+	  AmazonCreateAnAccount a =new AmazonCreateAnAccount();
+	  String expectedEmail="dhar@gmail";
+	  long expectedMobNo=345678;
+	  String actualresult=a. MobNoAndEmailID( expectedEmail,expectedMobNo);
+			  
+	  
+  }
+   
+   
+   
+}

@@ -1,0 +1,11 @@
+package io.cal;
+
+public class AmazonCreateAnAccountPage {
+
+	public Object YourName(String expectedFirstnm, String expectedLastnm) {
+		
+		return ("Firstnm" + "Lastnm" );
+		
+	}
+
+}

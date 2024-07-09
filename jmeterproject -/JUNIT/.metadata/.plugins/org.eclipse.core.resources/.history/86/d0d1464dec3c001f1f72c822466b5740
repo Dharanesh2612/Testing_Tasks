@@ -1,0 +1,15 @@
+package io.cal;
+
+public class CalculatorProjectTest {
+	
+	@Test
+	
+	void test() {
+		CalculatorProject c =new CalculatorProject();
+		int expexcted =2;
+		int actual =c.add(1, 1);
+		
+		
+	}
+
+}

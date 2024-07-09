@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CalculatorProjectTest" project="JUnitProjectTest" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="io.cal.CalculatorProjectTest" time="0.051" displayname="CalculatorProjectTest" uniqueid="[engine:junit-jupiter]/[class:io.cal.CalculatorProjectTest]">
+    <testcase name="areaofcircle" classname="io.cal.CalculatorProjectTest" time="0.035" displayname="areaofcircle()" uniqueid="[engine:junit-jupiter]/[class:io.cal.CalculatorProjectTest]/[method:areaofcircle()]"/>
+    <testcase name="positivenumber" classname="io.cal.CalculatorProjectTest" time="0.003" displayname="positivenumber()" uniqueid="[engine:junit-jupiter]/[class:io.cal.CalculatorProjectTest]/[method:positivenumber()]"/>
+    <testcase name="add" classname="io.cal.CalculatorProjectTest" time="0.002" displayname="add()" uniqueid="[engine:junit-jupiter]/[class:io.cal.CalculatorProjectTest]/[method:add()]"/>
+    <testcase name="div" classname="io.cal.CalculatorProjectTest" time="0.002" displayname="div()" uniqueid="[engine:junit-jupiter]/[class:io.cal.CalculatorProjectTest]/[method:div()]"/>
+    <testcase name="mul" classname="io.cal.CalculatorProjectTest" time="0.002" displayname="mul()" uniqueid="[engine:junit-jupiter]/[class:io.cal.CalculatorProjectTest]/[method:mul()]"/>
+    <testcase name="sub" classname="io.cal.CalculatorProjectTest" time="0.002" displayname="sub()" uniqueid="[engine:junit-jupiter]/[class:io.cal.CalculatorProjectTest]/[method:sub()]"/>
+  </testsuite>
+</testrun>

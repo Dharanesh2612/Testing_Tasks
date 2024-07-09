@@ -1,0 +1,625 @@
+{
+	"id": "f3f67b10-f78a-4c46-a277-7cf26faffcfc",
+	"name": "New Collection",
+	"timestamp": "2024-07-04T11:28:02.539Z",
+	"collection_id": "36735002-348e4bc6-226d-4c28-994c-18da6a63a49e",
+	"folder_id": 0,
+	"environment_id": "36735002-61ec1fec-6d52-4897-92e3-8dea4e72191f",
+	"totalPass": 90,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-07-04T11:27:49.503Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "9035eedb-5a69-45d1-91bf-9d1429f65945",
+			"name": "firstpage",
+			"url": "http://localhost:8888/users",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				11,
+				6,
+				7,
+				6,
+				5,
+				6,
+				5,
+				5,
+				5,
+				5
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "f3dbaee5-3e75-434f-929a-874ffa8a4fcb",
+			"name": "http://localhost:8888/users",
+			"url": "http://localhost:8888/users",
+			"time": 131,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				37,
+				48,
+				27,
+				36,
+				91,
+				43,
+				36,
+				25,
+				53,
+				131
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "5c4ed5f9-f182-45c0-b481-2545396d03e6",
+			"name": "http://localhost:8888/users",
+			"url": "http://localhost:8888/users",
+			"time": 35,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				33,
+				73,
+				76,
+				51,
+				47,
+				89,
+				47,
+				22,
+				49,
+				35
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "58e58bec-d348-4aa8-ad2f-a519dc66350f",
+			"name": "http://localhost:8888/users",
+			"url": "http://localhost:8888/users",
+			"time": 90,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				102,
+				67,
+				55,
+				60,
+				28,
+				37,
+				55,
+				22,
+				52,
+				90
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "fe392851-cebe-4e87-9485-e04270966e24",
+			"name": "http://localhost:8888/users",
+			"url": "http://localhost:8888/users",
+			"time": 56,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				20,
+				51,
+				82,
+				30,
+				25,
+				44,
+				60,
+				21,
+				27,
+				56
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "e32db019-be0a-4915-a569-352128594912",
+			"name": "http://localhost:8888/users",
+			"url": "http://localhost:8888/users",
+			"time": 51,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				26,
+				34,
+				34,
+				27,
+				51,
+				23,
+				31,
+				37,
+				36,
+				51
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "0e0692e6-dbc6-443c-ad33-9bad89d2b883",
+			"name": "http://localhost:8888/users",
+			"url": "http://localhost:8888/users",
+			"time": 54,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				20,
+				56,
+				56,
+				54,
+				71,
+				49,
+				84,
+				57,
+				66,
+				54
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "e8efb457-c877-46f5-9eca-c69256e02cc3",
+			"name": "http://localhost:8888/users",
+			"url": "http://localhost:8888/users",
+			"time": 20,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				49,
+				47,
+				59,
+				41,
+				57,
+				79,
+				49,
+				31,
+				56,
+				20
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "cda7c481-2875-4656-a313-d8fd5caa077c",
+			"name": "http://localhost:8888/users",
+			"url": "http://localhost:8888/users",
+			"time": 33,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				24,
+				37,
+				36,
+				41,
+				62,
+				28,
+				32,
+				125,
+				34,
+				33
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				}
+			]
+		}
+	],
+	"count": 10,
+	"totalTime": 3951,
+	"collection": {
+		"requests": [
+			{
+				"id": "9035eedb-5a69-45d1-91bf-9d1429f65945",
+				"method": "GET"
+			},
+			{
+				"id": "f3dbaee5-3e75-434f-929a-874ffa8a4fcb",
+				"method": "POST"
+			},
+			{
+				"id": "5c4ed5f9-f182-45c0-b481-2545396d03e6",
+				"method": "POST"
+			},
+			{
+				"id": "58e58bec-d348-4aa8-ad2f-a519dc66350f",
+				"method": "POST"
+			},
+			{
+				"id": "fe392851-cebe-4e87-9485-e04270966e24",
+				"method": "POST"
+			},
+			{
+				"id": "e32db019-be0a-4915-a569-352128594912",
+				"method": "POST"
+			},
+			{
+				"id": "0e0692e6-dbc6-443c-ad33-9bad89d2b883",
+				"method": "POST"
+			},
+			{
+				"id": "e8efb457-c877-46f5-9eca-c69256e02cc3",
+				"method": "POST"
+			},
+			{
+				"id": "cda7c481-2875-4656-a313-d8fd5caa077c",
+				"method": "POST"
+			}
+		]
+	}
+}

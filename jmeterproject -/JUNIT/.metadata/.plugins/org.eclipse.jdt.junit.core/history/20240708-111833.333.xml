@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CalculatorProjectTest" project="JUnitProjectTest" tests="4" started="4" failures="1" errors="0" ignored="0">
+  <testsuite name="io.cal.CalculatorProjectTest" time="0.09" displayname="CalculatorProjectTest" uniqueid="[engine:junit-jupiter]/[class:io.cal.CalculatorProjectTest]">
+    <testcase name="add" classname="io.cal.CalculatorProjectTest" time="0.054" displayname="add()" uniqueid="[engine:junit-jupiter]/[class:io.cal.CalculatorProjectTest]/[method:add()]"/>
+    <testcase name="div" classname="io.cal.CalculatorProjectTest" time="0.03" displayname="div()" uniqueid="[engine:junit-jupiter]/[class:io.cal.CalculatorProjectTest]/[method:div()]">
+      <failure>
+        <expected>2</expected>
+        <actual>18</actual>
+        org.opentest4j.AssertionFailedError: Divide Function can Calulate Two Integers..! ==&gt; expected: &lt;2&gt; but was: &lt;18&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)&#13;
+	at io.cal.CalculatorProjectTest.div(CalculatorProjectTest.java:46)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+    <testcase name="mul" classname="io.cal.CalculatorProjectTest" time="0.002" displayname="mul()" uniqueid="[engine:junit-jupiter]/[class:io.cal.CalculatorProjectTest]/[method:mul()]"/>
+    <testcase name="sub" classname="io.cal.CalculatorProjectTest" time="0.002" displayname="sub()" uniqueid="[engine:junit-jupiter]/[class:io.cal.CalculatorProjectTest]/[method:sub()]"/>
+  </testsuite>
+</testrun>
